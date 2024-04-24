@@ -1,0 +1,8 @@
+It is reccomended to use anaconda prompt instead of regular command prompt to reduce Path related complexities.
+In your anaconda propmt use you are at the directory where you have saved your file, do the following:
+conda install libpython m2w64-toolchain -c msys2
+pip install Cython
+pip install streamlit fbprophet yfinance plotly
+After these initial installation are finished:
+streamlib run main.py 
+Use the above in terminal (conda prompt) to run the the source code
